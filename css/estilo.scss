@@ -47,6 +47,9 @@ html{
                     span{
                         margin-bottom: 1rem;
                         display: block;
+                        color: black;
+                        font-weight: 600;
+                        font-size: 1.5rem
                     }
 
                     input{
@@ -59,12 +62,36 @@ html{
                             border: 0.1rem solid #000;
                         }
                     }
+
+                    img{
+                        height: 3.4rem;
+                        margin-top: 0.5rem;
+                        filter: drop-shadow(0 0 0.1rem #000);
+                    }
                 }
 
                 .flex{
                     display: flex;
                     gap: 1.5rem;
+
+                    .inputBox{
+                        margin-top: 0.5rem;
+                    }
                 }
+            }
+        }
+
+        .sunmit-btn{
+            width: 100%;
+            padding: 1.2rem;
+            font-size: 1.7rem;
+            background: #27ae60;
+            color: #fff;
+            margin-top: 0.5rem;
+            cursor: pointer;
+
+            &:hover{
+                background: #2ecc71;
             }
         }
     }

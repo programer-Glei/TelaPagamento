@@ -20,4 +20,25 @@ html{
     min-height: 100vh;
     background: linear-gradient(90deg, #2ecc71 60%, #27ae60 40.1%);
     padding-bottom: 7rem;
+
+    form{
+        padding: 2rem;
+        width: 70rem;
+        background: #fff;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+
+            .col{
+                flex: 1 1 25rem;
+
+                .title{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
 }
